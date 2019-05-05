@@ -4,4 +4,4 @@ RUN apk add --no-cache p7zip
 RUN apk add --no-cache unrar
 RUN apk add --no-cache unzip
 VOLUME /files
-ENTRYPOINT ["sh"]
+CMD ["echo", "Plase call either 7z, unrar or unzip commands"]
